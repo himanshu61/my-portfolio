@@ -4,9 +4,9 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
- const {
+const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://sidwachche.netlify.app',
+  URL: NETLIFY_SITE_URL = 'https://himanshu-shekhar.netlify.app',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
@@ -16,16 +16,16 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     siteUrl,
-    title: "Sid Wachche Portfolio",
-    titleTemplate: "%s - by Sid Wachche",
+    title: "Himanshu Shekhar Portfolio",
+    titleTemplate: "%s - by Himanshu Shekhar",
     description:
-      "Sid Wachche Portfolio. Siddhaling Wachche.",
-    url: "https://sidwachche.netlify.app", // No trailing slash allowed!
+      "Himanshu Shekhar Portfolio. Himanshu Shekhar.",
+    url: "https://himanshu-shekhar.netlify.app", // No trailing slash allowed!
     image: "/img/primary.webp", // Path to your image you placed in the 'static' folder
     twitterUsername: "@sidwachche",
   },
   plugins: [
-    "gatsby-plugin-react-helmet", 
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-advanced-sitemap",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-preload-fonts",
@@ -51,5 +51,5 @@ module.exports = {
         },
       },
     },
-],
+  ],
 }
