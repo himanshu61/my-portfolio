@@ -296,7 +296,7 @@ a {
 
 .intro__img {
     box-shadow: var(--bs);
-    background: url("img/him_pic.png");
+    background: url("img/him_pic.jpg");
     background-color: white;
     background-size: cover;
 }
