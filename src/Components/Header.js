@@ -20,7 +20,7 @@ function Header() {
       <>
         <header className="home-header">
         <a href="/#home" className="logo">
-          <span className="logo-text">&lt;devsid&gt; </span>
+          <span className="logo-text">&lt;himanshu&gt; </span>
         </a>
         <button className="nav-toggle" aria-label="toggle navigation">
           <span className="hamburger"></span>
