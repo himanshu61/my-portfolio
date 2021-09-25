@@ -296,7 +296,7 @@ a {
 
 .intro__img {
     box-shadow: var(--bs);
-    background: url("img/primary.webp");
+    background: url("img/him_pic.png");
     background-color: white;
     background-size: cover;
 }
